@@ -1,0 +1,138 @@
+
+/*index*/
+body{
+  background: #ffffff;
+  margin: 0px;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+#container1{
+  width: 100%;
+  height: 110px;
+}
+
+.navegador{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#buscador{
+  width: 300px;
+  height: 30px;
+  border-width: 2px;
+}
+.logoheader{
+  width: 150px;
+}
+ul{
+  display: flex;
+}
+li{
+  
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  padding-left: 12px;
+
+
+}
+
+button{
+  height: 30px;
+}
+
+
+
+
+.USER{
+  border-radius: 50px;
+  height: 60px;
+  width: 60px;
+  float: left; 
+}
+
+/*fin index*/
+
+/*introindex*/
+
+#hero{
+  min-height: 100vh;
+  position: relative;
+}
+
+.video1{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.container{
+  padding-top: 150px;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  position: relative;
+  z-index: 2;
+  justify-content: center;
+  padding-right: 220px;
+
+
+}
+h1{
+  color: beige;
+  font-family: 'Preahvihear';
+  position: relative
+  
+  
+}
+
+
+
+
+span{
+  color:#ff0000
+}
+span:hover{
+  color: blueviolet;
+
+}
+
+h1:hover{
+  color: blueviolet;
+}
+
+.imagendeperfil{
+  border-radius: 322px;
+  width: 300px;
+  height: 300px;  
+}
+
+.botonintro{
+  color: #000;
+  margin-left: 120px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+
+
+
+
+/*
+
+@media (max-width: 440px) {
+  #home {
+    padding-top: 320px;
+    padding-bottom: 320px;
+  }
+  #home h1 {
+    font-size: 22px;
+  }
+  #home h3 {
+    font-size: 12px;
